@@ -22,6 +22,10 @@ android {
 }
 
 dependencies {
+    // volley library
+    compile 'com.android.volley:volley:1.0.0'
+
+    // unit testing
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
