@@ -10,8 +10,9 @@ import java.util.Map;
 
 /**
  * Created by mike on 4/25/17.
+ *
+ * Abstract class for HTTP Forms. The default Content-Type format is application/x-www-form-urlencoded (for multipart/form-data see {@link MultipartFormRequest}).
  */
-
 public abstract class FormRequest<T> extends Request<T> {
 
     private HashMap<String,String> params;
